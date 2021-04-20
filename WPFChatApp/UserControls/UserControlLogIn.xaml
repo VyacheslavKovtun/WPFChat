@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="WPFChatApp.UserControls.UserControlLogIn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFChatApp.UserControls"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             d:DesignHeight="540" d:DesignWidth="1020">
+    <Grid Background="#FF05191F">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
+            <!--#region Name-->
+            <TextBox x:Name="NameTB" materialDesign:HintAssist.Hint="Name(let empty if you log in)" Foreground="White" Margin="15">
+                <TextBox.Text>
+                    <Binding Path="Name" UpdateSourceTrigger="PropertyChanged"/>
+                </TextBox.Text>
+            </TextBox>
+            <!--#endregion-->
+
+            <!--#region Login-->
+            <TextBox x:Name="LoginTB" materialDesign:HintAssist.Hint="Login" Foreground="White" Margin="15">
+                <TextBox.Text>
+                    <Binding Path="Name" UpdateSourceTrigger="PropertyChanged"/>
+                </TextBox.Text>
+            </TextBox>
+            <!--#endregion-->
+
+            <!--#region Password-->
+            <PasswordBox x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" Foreground="White" Margin="15"/>
+            <!--#endregion-->
+
+            <!--#region LogInBtn-->
+            <Button x:Name="LogInBtn" Width="150" Background="#FF003544" BorderBrush="#FF041C23" Foreground="White" Margin="15" Click="LogInBtn_Click">
+                Continue
+            </Button>
+            <!--#endregion-->
+        </StackPanel>
+        <fa:ImageAwesome x:Name="LoadingIcon" Icon="Refresh" Spin="True" Width="70" Height="70" Foreground="DarkGray" Visibility="Hidden"/>
+    </Grid>
+</UserControl>
+    

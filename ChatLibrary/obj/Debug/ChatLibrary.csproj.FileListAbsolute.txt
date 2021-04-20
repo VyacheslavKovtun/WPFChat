@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\obj\Debug\ChatLibrary.csproj.CopyComplete
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
