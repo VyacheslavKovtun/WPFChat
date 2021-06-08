@@ -10,3 +10,15 @@ C:\Users\User\Desktop\Projects\Сетевое программирование\W
 C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.csproj.CopyComplete
 C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.exe
 C:\Users\User\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.pdb
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\ChatLibrary.dll
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\ChatLibrary.pdb
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.csproj.CopyComplete
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\Vyacheslav\Desktop\Projects\Сетевое программирование\WPFChatApp\ChatServer\obj\Debug\ChatServer.pdb
