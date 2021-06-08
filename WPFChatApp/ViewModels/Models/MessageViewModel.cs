@@ -11,49 +11,27 @@ namespace WPFChatApp.ViewModels.Models
     public class MessageViewModel : INotifyPropertyChanged, ICloneable
     {
         public int Id { get; set; }
-        private UserViewModel from;
-        private int fromId;
-        private UserViewModel to;
-        private int toId;
+        private int userFromId;
+        private int userToId;
         private string text;
 
-        public UserViewModel From
+        public int UserFromId
         {
-            get => from;
+            get => userFromId;
             set
             {
-                from = value;
-                OnPropertyChanged(nameof(From));
+                userFromId = value;
+                OnPropertyChanged(nameof(UserFromId));
             }
         }
 
-        public int FromId
+        public int UserToId
         {
-            get => fromId;
+            get => userToId;
             set
             {
-                fromId = value;
-                OnPropertyChanged(nameof(FromId));
-            }
-        }
-
-        public UserViewModel To
-        {
-            get => to;
-            set
-            {
-                to = value;
-                OnPropertyChanged(nameof(To));
-            }
-        }
-
-        public int ToId
-        {
-            get => toId;
-            set
-            {
-                toId = value;
-                OnPropertyChanged(nameof(ToId));
+                userToId = value;
+                OnPropertyChanged(nameof(UserToId));
             }
         }
 
@@ -80,11 +58,9 @@ namespace WPFChatApp.ViewModels.Models
             {
                 Id = this.Id,
 
-                From = this.From,
-                FromId = this.FromId,
+                UserFromId = this.UserFromId,
 
-                To = this.To,
-                ToId = this.ToId,
+                UserToId = this.UserToId,
 
                 Text = this.Text
             };

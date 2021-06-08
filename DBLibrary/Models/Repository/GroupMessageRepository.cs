@@ -25,10 +25,8 @@ namespace DBLibrary.Models.Repository
 
             if (gm != null)
             {
-                gm.From = item.From;
-                gm.FromId = item.FromId;
-                gm.To = item.To;
-                gm.ToId = item.ToId;
+                gm.UserFromId = item.UserFromId;
+                gm.GroupToId = item.GroupToId;
                 gm.Text = item.Text;
 
                 await ctx.SaveChangesAsync();

@@ -14,6 +14,7 @@ namespace DBLibrary.Models.DBContext
         public DbSet<Message> Messages { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<GroupMessage> GroupMessages { get; set; }
+        public DbSet<UserContacts> UsersContacts { get; set; }
 
         public DatabaseContext() : base("DefaultConnection") { }
     }

@@ -68,20 +68,20 @@ namespace WPFChatApp.ViewModels.View
         {
             var dbGroupMessages = await unitOfWork.GroupMessageRepository.GetAllAsync();
 
-            var groupMessages = dbGroupMessages.Where(gm => gm.ToId == selectedGroup.Id);
+            //var groupMessages = dbGroupMessages.Where(gm => gm.ToId == selectedGroup.Id);
 
-            LoadGroupMessages?.Invoke(groupMessages);
+            //LoadGroupMessages?.Invoke(groupMessages);
         }
 
         private async void OpenChat(UserViewModel selectedChat)
         {
             var dbMessages = await unitOfWork.MessageRepository.GetAllAsync();
 
-            var messages = dbMessages.Where(m =>
+            /*var messages = dbMessages.Where(m =>
             (m.FromId == selectedChat.Id && m.ToId == CurrentUser.Id)
             || (m.FromId == CurrentUser.Id && m.ToId == selectedChat.Id));
 
-            LoadChatMessages?.Invoke(messages);
+            LoadChatMessages?.Invoke(messages);*/
         }
 
         public ChatViewModel(UserViewModel currentUser)

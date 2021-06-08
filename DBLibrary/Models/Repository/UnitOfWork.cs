@@ -19,6 +19,7 @@ namespace DBLibrary.Models.Repository
         private MessageRepository messageRepository;
         private GroupRepository groupRepository;
         private GroupMessageRepository groupMessageRepository;
+        private UserContactsRepository userContactsRepository;
 
         public UserRepository UserRepository => userRepository ?? (userRepository = new UserRepository(ctx));
 
@@ -27,6 +28,8 @@ namespace DBLibrary.Models.Repository
         public GroupRepository GroupRepository => groupRepository ?? (groupRepository = new GroupRepository(ctx));
 
         public GroupMessageRepository GroupMessageRepository => groupMessageRepository ?? (groupMessageRepository = new GroupMessageRepository(ctx));
+
+        public UserContactsRepository UserContactsRepository => userContactsRepository ?? (userContactsRepository = new UserContactsRepository(ctx));
 
         private UnitOfWork()
         {

@@ -37,7 +37,7 @@ namespace WPFChatApp.UserControls
             {
                 Dispatcher.BeginInvoke(new Action(() =>
                 {
-                    MainTB.Text += $"{msg.From.Nickname}: {msg.Text}\n";
+                   // MainTB.Text += $"{msg.From.Nickname}: {msg.Text}\n";
                 }));
             }
         }
@@ -48,7 +48,7 @@ namespace WPFChatApp.UserControls
             {
                 Dispatcher.BeginInvoke(new Action(() =>
                 {
-                    MainTB.Text += $"{msg.From.Nickname}: {msg.Text}\n";
+                   // MainTB.Text += $"{msg.From.Nickname}: {msg.Text}\n";
                 }));
             }
         }

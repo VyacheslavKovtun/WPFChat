@@ -11,49 +11,27 @@ namespace WPFChatApp.ViewModels.Models
     public class GroupMessageViewModel : INotifyPropertyChanged, ICloneable
     {
         public int Id { get; set; }
-        private UserViewModel from;
-        private int fromId;
-        private GroupViewModel to;
-        private int toId;
+        private int userFromId;
+        private int groupToId;
         private string text;
 
-        public UserViewModel From
+        public int UserFromId
         {
-            get => from;
+            get => userFromId;
             set
             {
-                from = value;
-                OnPropertyChanged(nameof(From));
+                userFromId = value;
+                OnPropertyChanged(nameof(UserFromId));
             }
         }
 
-        public int FromId
+        public int GroupToId
         {
-            get => fromId;
+            get => groupToId;
             set
             {
-                fromId = value;
-                OnPropertyChanged(nameof(FromId));
-            }
-        }
-
-        public GroupViewModel To
-        {
-            get => to;
-            set
-            {
-                to = value;
-                OnPropertyChanged(nameof(To));
-            }
-        }
-
-        public int ToId
-        {
-            get => toId;
-            set
-            {
-                toId = value;
-                OnPropertyChanged(nameof(ToId));
+                groupToId = value;
+                OnPropertyChanged(nameof(GroupToId));
             }
         }
 
@@ -79,10 +57,8 @@ namespace WPFChatApp.ViewModels.Models
             return new GroupMessageViewModel
             {
                 Id = this.Id,
-                From = this.From,
-                FromId = this.FromId,
-                To = this.To,
-                ToId = this.ToId,
+                UserFromId = this.UserFromId,
+                GroupToId = this.GroupToId,
                 Text = this.Text
             };
         }

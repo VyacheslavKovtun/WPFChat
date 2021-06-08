@@ -21,7 +21,7 @@ namespace DBLibrary.Models.Repository
 
         public IEnumerable<Message> GetUserMessages(int userId)
         {
-            return table.Where(m => m.FromId == userId || m.ToId == userId);
+            return table.Where(m => m.UserFromId == userId || m.UserToId == userId);
         }
 
         public async override Task UpdateAsync(Message item)
@@ -30,11 +30,9 @@ namespace DBLibrary.Models.Repository
 
             if (msg != null)
             {
-                msg.From = item.From;
-                msg.FromId = item.FromId;
+                msg.UserFromId = item.UserFromId;
 
-                msg.To = item.To;
-                msg.ToId = item.ToId;
+                msg.UserToId = item.UserToId;
 
                 msg.Text = item.Text;
 

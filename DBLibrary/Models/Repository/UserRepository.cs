@@ -34,16 +34,6 @@ namespace DBLibrary.Models.Repository
                 user.Login = item.Login;
                 user.Password = item.Password;
 
-                user.ContactsId = item.ContactsId;
-
-                List<User> contacts = new List<User>();
-                foreach (var id in user.ContactsId)
-                {
-                    contacts.Add(Get(id));
-                }
-
-                user.Contacts = contacts;
-
                 await ctx.SaveChangesAsync();
             }
         }

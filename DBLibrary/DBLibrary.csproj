@@ -59,10 +59,12 @@
     <Compile Include="Models\Entities\GroupMessage.cs" />
     <Compile Include="Models\Entities\Message.cs" />
     <Compile Include="Models\Entities\User.cs" />
+    <Compile Include="Models\Entities\UserContacts.cs" />
     <Compile Include="Models\Repository\GroupMessageRepository.cs" />
     <Compile Include="Models\Repository\GroupRepository.cs" />
     <Compile Include="Models\Repository\MessageRepository.cs" />
     <Compile Include="Models\Repository\UnitOfWork.cs" />
+    <Compile Include="Models\Repository\UserContactsRepository.cs" />
     <Compile Include="Models\Repository\UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

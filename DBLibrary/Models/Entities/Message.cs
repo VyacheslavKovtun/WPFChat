@@ -9,11 +9,9 @@ namespace DBLibrary.Models.Entities
 {
     public class Message : BaseEntity<int>
     {
-        public User From { get; set; }
-        public int FromId { get; set; }
+        public int UserFromId { get; set; }
 
-        public User To { get; set; }
-        public int ToId { get; set; }
+        public int UserToId { get; set; }
 
         public string Text { get; set; }
     }
